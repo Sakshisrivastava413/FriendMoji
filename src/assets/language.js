@@ -15,7 +15,8 @@ export default {
     REGISTER: 'Register',
 		WELCOME: 'Welcome',
     FINDING_MATCH: 'FINDING MATCH...',
-    LOGOUT: 'Logout'
+    LOGOUT: 'Logout',
+    FRIEND: 'Friend'
   },
   hindi: {
     EMAIL: 'ईमेल',
@@ -33,24 +34,26 @@ export default {
     REGISTER: 'रजिस्टर',
 		WELCOME: 'स्वागत हे',
     FINDING_MATCH: 'मैच ढूंढ रहा है...',
-    LOGOUT: 'लॉग आउट'    
+    LOGOUT: 'लॉग आउट',
+    FRIEND: 'मित्र'   
   },
-  kannada: {
-    EMAIL: 'ಇಮೇಲ್',
-    PASSWORD: 'ಪಾಸ್ವರ್ಡ್',
-    NAME: 'ಹೆಸರು',
-    FORGET_PASSWORD: 'ಪಾಸ್ವರ್ಡ್ ಮರೆತುಬಿಡಿ',
-    LOGIN: 'ಲಾಗಿನ್ ಮಾಡಿ',
-    NEW: 'ಹೊಸದು',
-    SIGN_UP_NOW: 'ಇದೀಗ ಸೈನ್ ಅಪ್ ಮಾಡಿ!',
-    START: 'ಪ್ರಾರಂಭ',
-    SUBMIT: 'ಸಲ್ಲಿಸಲು',
-    CHOOSE_YOUR_LANGUAGE: 'ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆರಿಸಿ',
-    ALREADY_SIGNED_IN: 'ಈಗಾಗಲೇ ಸೈನ್ ಇನ್ ಆಗಿದೆ',
-    UPLOADING_IMAGE: 'ಚಿತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ',
-    REGISTER: 'ನೋಂದಣಿ',
-		WELCOME: 'ಸ್ವಾಗತ',
-    FINDING_MATCH: 'ಹೊಂದಾಣಿಕೆಯನ್ನು ಕಂಡುಹಿಡಿಯುವುದು...',
-    LOGOUT: 'ಲಾಗ್ .ಟ್ ಆಗುತ್ತಿದೆ'    
+  italian: {
+    EMAIL: 'E-mail',
+    PASSWORD: 'Parola d\'ordine',
+    NAME: 'Nome',
+    FORGET_PASSWORD: 'Dimenticare la password',
+    LOGIN: 'Accedere',
+    NEW: 'nuova',
+    SIGN_UP_NOW: 'Iscriviti ora!',
+    START: 'inizio',
+    SUBMIT: 'Invia',
+    CHOOSE_YOUR_LANGUAGE: 'scegli la tua LINGUA',
+    ALREADY_SIGNED_IN: 'già effettuato l\'accesso',
+    UPLOADING_IMAGE: 'caricamento dell\'immagine',
+    REGISTER: 'Registrati',
+		WELCOME: 'benvenuta',
+    FINDING_MATCH: 'trovare corrispondenza...',
+    LOGOUT: 'disconnettersi',
+    FRIEND: 'amico'   
   }
 }
