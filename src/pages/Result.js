@@ -17,8 +17,6 @@ class Result extends Component {
     this.setState({ language: languages[langKey] });
   }
   backToHome = () => {
-    let a = new Audio(click);
-    a.play();
     this.props.history.push('/home');
   }
 
