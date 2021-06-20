@@ -3,6 +3,7 @@ import firebase from '../firebase.init';
 import './Login.css';
 import language from "../assets/language";
 import click from '../assets/click.wav';
+
 export default class Login extends Component {
   constructor(props) {
     super(props);
@@ -13,7 +14,7 @@ export default class Login extends Component {
       language: [
         { name: 'English', key: 'english' },
         { name: 'Hindi', key: 'hindi' },
-        { name: 'Kannada', key: 'kannada' }
+        { name: 'Italian', key: 'italian' }
       ],
       langSelected: 0
     };
@@ -41,8 +42,6 @@ export default class Login extends Component {
   };
   login = e => {
     e.preventDefault();
-    let a = new Audio(click);
-    a.play();
     console.log("Submiting ", this.state);
     const { userName, password } = this.state;
     firebase
@@ -59,18 +58,12 @@ export default class Login extends Component {
      });
 	};
 	signup = () => {
-    let a = new Audio(click);
-    a.play();
     this.props.history.push('/signup');
   }
   forgetPassword = () => {
-    let a = new Audio(click);
-    a.play();
     this.props.history.push('/forget-password')
   }
   changeLanguage = (key) => {
-    let a = new Audio(click);
-    a.play();
     this.setState({ langSelected: key });
     localStorage.setItem('lang', this.state.language[key].key);
   }
@@ -80,7 +73,7 @@ export default class Login extends Component {
     return (
       <div className="main-container">
         <div className="login-block" style={{top: '8rem'}}>
-          <h1>मित्रMoji</h1>
+          <h1>{language[langKey].FRIEND}Moji</h1>
           <input type="text" placeholder={language[langKey].EMAIL} name="userName" id="username" onChange={this.onChange} />
           <input type="password" placeholder={language[langKey].PASSWORD} name="password" id="password" onChange={this.onChange} />
           <p className="forget" onClick={this.forgetPassword}>{language[langKey].FORGET_PASSWORD}</p>

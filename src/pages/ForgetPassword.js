@@ -29,7 +29,7 @@ export default class Login extends Component {
       <div className="main-container">
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'></link>
         <div className="login-block">
-            <h1>मित्रMoji</h1>
+            <h1>{language.FRIEND}Moji</h1>
             <input type="text" placeholder={language.EMAIL} name="userName" id="username" onChange={this.onChange} />
             <button onClick={this.login}>{language.SUBMIT}</button>
         </div>

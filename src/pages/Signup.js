@@ -90,7 +90,7 @@ export default class Signup extends Component {
       <div className="main-container">
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'></link>
         <div className="login-block" style={{ top: '8rem' }}>
-            <h1>मित्रMoji</h1>
+            <h1>{language.FRIEND}Moji</h1>
 						<div style={{ textAlign: 'center' }}>
 							<img className="avatar-image" src={this.state.imageUrl} alt="avatar" onClick={this.showUploadPanel} />
 						</div>						
